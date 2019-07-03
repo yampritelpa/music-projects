@@ -1,8 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun 28 21:33:59 2019
+Created on Tue Jul  2 23:31:59 2019
 
 @author: Priyam
 """
 
-TOKEN = 'BQAY8Av1CxOUfZitUkHE4cIILb4_L2oA5bvklxikuDp-VZfGVQmG06gQl9Fft5g32NGyA8mC0KFJtUCoHeUxRp5MmgUsIIfA2GAuP2uViKptpvKLWgyrZn3S9V5ni95BlNGhC1CxhXmQrA8Q8GKxwLNZrd5K0_sPjDBaJsktPfUgm58'
+from kpop_playlist_v2 import artists
+from kpop_helpers_v2 import *
+
+import pandas as pd
+
+
+
+artist_info_table = artists_info(artists)
+
+artist_info_table.to_csv('compiled-artist-info.csv',header=True,index=None)
+
+artist_music_table = artists_music(artists)
+
+artist_music_table0 = artist_music_table.drop([0],1)
+artist_music_table0.to_csv('compiled-kpop-features.csv',header=True,index=None)
+
+load_test = pd.read_csv('compiled-kpop-features.csv')
