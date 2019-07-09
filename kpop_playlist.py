@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 1 14:34:30 2019
+Created on Fri Jun 28 18:41:30 2019
 
 @author: Priyam
 """
@@ -26,6 +26,7 @@ loona = 'https://open.spotify.com/artist/52zMTJCKluDlFwMQWmccY7'
 loona_yyxy = 'https://open.spotify.com/artist/4JKDJj0bOTw07GrQ9pmcUS'
 lonna_oddeyecircle = 'https://open.spotify.com/artist/5KPaeBm0fVfCSZLydp9jdy'
 wjsn = 'https://open.spotify.com/artist/6hhqsQZhtp9hfaZhSd0VSD'
+gfriend = 'https://open.spotify.com/artist/0qlWcS66ohOIi0M8JZwPft'
 jimin = 'https://open.spotify.com/artist/2YXlVLKq3X3soXd2aXUtIT'
 gugudan = 'https://open.spotify.com/artist/0h7XZWgoxlY49uSUj7MVRY'
 fromis_9 = 'https://open.spotify.com/artist/24nUVBIlCGi4twz4nYxJum'
@@ -111,9 +112,18 @@ beast = 'https://open.spotify.com/artist/1Pr9gT0veB2tgcisQeIGoC'
 shinhwa = 'https://open.spotify.com/artist/0jVvkFPa6YbFXQ3Qmhita0'
 se7en = 'https://open.spotify.com/artist/14yLuCwlBqteUdBqx9soJV'
 
+exid_comp = [sistar,bestie,hellovenus,girlsday,apink,fiestar]
+exid_cont = [exid]+exid_comp
 top3 = [mamamoo,redvelvet,exid]
+mamamoo_cmp = [gfriend,redvelvet,exid,twice,blackpink,wjsn,aoa,gidle,loona,girlsday,stellar]
+
+rv_cmp = [gfriend,exid,twice,blackpink,wjsn,aoa,gidle,loona,mamamoo,girlsday,stellar,sistar,four_minute,fiestar,ioi,gugudan,weki_meki]
+
 
 artists = [mamamoo,hwasa,redvelvet,exid,secret,missA,sunmi,yubin,beg,gain,hyosung,jieun,gidle,loona,loona_yyxy,lonna_oddeyecircle,wjsn,jimin,gugudan,fromis_9,ohmygirl,pristin,k_da,weki_meki,ioi,momoland,blackpink,twice,taeyeon,tts,tiffany,chungha,kard,bolbbalgan4,aoa,girlsday,stellar,apink,brave_girls,after_school,orange_caramel,sistar,sistar_19,rania,nine_muses,hellovenus,bestie,fx,crayon_pop,ailee,spica,t_ara,four_minute,two_ne1,kara,wonder_girls,snsd,dalshabet,fiestar,g_na,clc,lee_hi,heize,akmu,melody_day,sonamoo,berrygood,zion_t,bigbang,jay_park,g_dragon,top,vixx,btob,nuest,b1a4,teen_top,winner,epik_high,eric_nam,seventeen,nct,nct_u,nct_127,nct_dream,stray_kids,got7,monsta_x,two_am,two_pm,super_junior,mblaq,tvxq,ftisland,shinee,cnblue,u_kiss,beast,shinhwa,se7en
+           ]
+
+artists0 = [sunmi,yubin,gidle,loona,loona_yyxy,lonna_oddeyecircle,wjsn,jimin,gugudan,fromis_9,ohmygirl,pristin,k_da,weki_meki,ioi,momoland,blackpink,twice,taeyeon,tts,tiffany,chungha,kard,bolbbalgan4,aoa,girlsday,stellar,apink,brave_girls,after_school,orange_caramel,sistar,sistar_19,rania,nine_muses,hellovenus,bestie,fx,crayon_pop,ailee,spica,t_ara,four_minute,two_ne1,kara,wonder_girls,snsd,dalshabet,fiestar,g_na,clc,lee_hi,heize,akmu,melody_day,sonamoo,berrygood,zion_t,bigbang,jay_park,g_dragon,top,vixx,btob,nuest,b1a4,teen_top,winner,epik_high,eric_nam,seventeen,nct,nct_u,nct_127,nct_dream,stray_kids,got7,monsta_x,two_am,two_pm,super_junior,mblaq,tvxq,ftisland,shinee,cnblue,u_kiss,beast,shinhwa,se7en
            ]
 
 sans_missA = [mamamoo,hwasa,redvelvet,exid,secret,sunmi,yubin,beg,gain,hyosung,jieun,gidle,loona,loona_yyxy,lonna_oddeyecircle,wjsn,jimin,gugudan,fromis_9,ohmygirl,pristin,k_da,weki_meki,ioi,momoland,blackpink,twice,taeyeon,tts,tiffany,chungha,kard,bolbbalgan4,aoa,girlsday,stellar,apink,brave_girls,after_school,orange_caramel,sistar,sistar_19,rania,nine_muses,hellovenus,bestie,fx,crayon_pop,ailee,spica,t_ara,four_minute,two_ne1,kara,wonder_girls,snsd,dalshabet,fiestar,g_na,clc,lee_hi,heize,akmu,melody_day,sonamoo,berrygood,zion_t,bigbang,jay_park,g_dragon,top,vixx,btob,nuest,b1a4,teen_top,winner,epik_high,eric_nam,seventeen,nct,nct_u,nct_127,nct_dream,stray_kids,got7,monsta_x,two_am,two_pm,super_junior,mblaq,tvxq,ftisland,shinee,cnblue,u_kiss,beast,shinhwa,se7en
