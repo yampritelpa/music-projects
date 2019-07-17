@@ -15,7 +15,7 @@ I tried to edit out all the for loops, but it's still quite slow.
 
 
 client_id = '7cf30fc394274566bd5766cb05d66e89'
-client_secret = '9d5ffc176b494fdebd24c970832358dd'
+client_secret = 'XXX'
 
 album_limit = 50
 import spotipy
