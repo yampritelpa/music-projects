@@ -2,6 +2,11 @@
 """
 Created on Tue Jul  2 23:31:59 2019
 
+API to CSV
+
+This file takes a list of artist URLs from the kpop_playlist file,
+calls functions from kpop_helpers, and saves the data as CSV files.
+
 @author: Priyam
 """
 
