@@ -1,4 +1,4 @@
-This repository contains Priyam's music-related projects. 
+This repository contains Priyam's music-related projects. This branch is specifically to organize files for EXID song analysis, classification, and recommendation.
 
 First, a one/some-vs-many Kpop artist classifier/recommendation system. The API loader contains a script (calling upon functions in Helpers) to compose a CSV file with Spotify artist, album, and song metadata as specified in Playlist. Generic Classifier takes two CSV files, the target (Mamamoo, EXID, and/or Red Velvet) and others (up to 100 kpop artists). Assigning a feature of 1 to the target and 0 to others, the tree-based classifier learns characteristics of the target. False positives indicate songs by different artists that have similar metadata features to the target artist. From a subjective perspective, the model works because the similar metadata correlates to a similar musical aesthetic. Generic Classifier, therefore, serves as the basis for Generic Recommender.
 
